@@ -1,0 +1,20 @@
+@import "../../palette-variables.scss";
+
+.home {
+  background-color: $xiketic;
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .alertSearch {
+    text-align: center;
+    color: $magic-mint;
+    font-size: 40px;
+    padding: 20px 0;
+    .alertSpan {
+      color: $honeydew;
+      font-weight: bold;
+    }
+  }
+}

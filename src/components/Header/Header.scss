@@ -1,0 +1,35 @@
+@import "../../palette-variables.scss";
+
+header {
+  background-color: $xiketic;
+  border-bottom: solid 2px $middle-red;
+  height: 150px;
+  .headerTop {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    .logo {
+      .logoTitle {
+        width: 400px;
+        margin-right: 20px;
+      }
+    }
+    .searchTopBar {
+      width: 600px;
+      .searchBar {
+        width: 90%;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: $cyber-grape;
+        border: solid 1px $middle-red;
+        outline: none;
+        font-size: 20px;
+        color: $honeydew;
+      }
+    }
+  }
+  .headerBottom {
+    display: flex;
+    color: $honeydew;
+  }
+}

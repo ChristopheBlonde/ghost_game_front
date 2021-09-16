@@ -1,0 +1,37 @@
+@import "../../palette-variables.scss";
+
+.scrollingMenuContainer {
+  width: 150px;
+  margin: 0 10px;
+  border-radius: 15px;
+  z-index: 1;
+  .scrollMenuToggler {
+    width: 100%;
+    color: $magic-mint;
+    background-color: $cyber-grape;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 15px;
+    border-color: $middle-red;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .scrollingMenu {
+    background-color: $dark-purple;
+    border-radius: 10px;
+    .scrollingItem {
+      text-align: center;
+      padding: 5px 0;
+      border: solid 1px $middle-red;
+      border-radius: 10px;
+      margin-top: 2px;
+      cursor: pointer;
+      &:hover {
+        background-color: $cyber-grape;
+        color: $middle-red;
+      }
+    }
+  }
+}

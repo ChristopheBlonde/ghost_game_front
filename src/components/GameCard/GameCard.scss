@@ -1,0 +1,62 @@
+@import "../../palette-variables.scss";
+
+.gameCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 2px $middle-red;
+  border-radius: 15px;
+  max-width: 30%;
+  box-sizing: border-box;
+  margin-top: 20px;
+  background-color: $dark-purple;
+  .bgImgGame {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+  }
+  .titleGame {
+    font-size: 34px;
+    color: $middle-red;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .rating {
+    color: $magic-mint;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 5px 0 5px 20px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-top: solid 1px $lavender-floral;
+    border-bottom: solid 1px $lavender-floral;
+    .iconRating {
+      font-size: 36px;
+      margin-right: 10px;
+      padding: 5px 0;
+    }
+  }
+  .categories-1 {
+    width: 100%;
+    padding: 10px 0 10px 20px;
+    display: flex;
+    align-items: center;
+    color: $honeydew;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    .titleGenres {
+      color: $magic-mint;
+      font-size: 20px;
+    }
+    .genre {
+      margin-left: 10px;
+      padding: 5px 0;
+    }
+  }
+}
